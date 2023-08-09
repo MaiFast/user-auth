@@ -1,0 +1,31 @@
+# Ignore compiled Python files and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment
+myenv/
+
+# Ignore node_modules from the frontend
+frontend/node_modules/
+
+# Ignore build artifacts, logs, and temporary files
+build/
+dist/
+logs/
+*.log
+*.tmp
+
+# Ignore database files
+db.sqlite3
+
+# Ignore environment-specific settings (optional)
+.env
+
+# Ignore IDE and editor-specific files
+.idea/
+*.sublime-*
+*.swp
+
+# Ignore any other files or directories you want to exclude
